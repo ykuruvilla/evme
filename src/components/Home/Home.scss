@@ -1,0 +1,45 @@
+@import "../../styles/colours";
+
+.home {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__hero {
+    background-image: url("../../assets/images/home-hero.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 812px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 200px;
+
+    &-header {
+      color: white;
+    }
+
+    &-subheader {
+      color: white;
+    }
+  }
+  &__steps {
+    width: 100%;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-image {
+      background-image: url("../../assets/images/home-card1.png");
+      background-size: cover;
+      width: 100%;
+    }
+  }
+}
