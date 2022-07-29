@@ -13,6 +13,9 @@ function Card(props) {
           <img src={props.img} alt="Car image" className="car__image" />
         </div>
         <div className="car__info">
+          <div className="car__price">
+            <h3 className="car__price-text">{props.price}</h3>
+          </div>
           <p className="car__title">{`${props.make}: ${props.model}`}</p>
           <p className="car__offset">
             {`Ofsetting cost:`} <span>{`${props.years} years`}</span>
