@@ -1,0 +1,30 @@
+@import "./fonts.scss";
+
+h1 {
+  @include header;
+  margin: 0;
+}
+
+h2 {
+  @include subheader;
+  margin: 0;
+}
+
+h3 {
+  @include button;
+  margin: 0;
+}
+
+h4 {
+  @include body-bold;
+  margin: 0;
+}
+
+p {
+  @include body;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
