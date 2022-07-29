@@ -9,5 +9,11 @@
   }
 
   &__cards-wrapper {
+    display: flex;
+    flex-direction: column;
   }
+}
+
+.breadcrumbs {
+  margin: 30px 400px;
 }

@@ -18,6 +18,23 @@
     }
   }
 
+  &__price {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__price-text {
+    font-size: 36px;
+  }
+
+  &__info {
+    padding: 0 12px;
+  }
+
+  &__title {
+    padding-top: 0;
+  }
+
   &__image-container {
     object-fit: contain;
   }
@@ -32,6 +49,10 @@
     align-self: center;
   }
 
+  &__fuel-cost-container {
+    padding-bottom: 80px;
+  }
+
   &__button {
     display: flex;
     justify-content: center;
@@ -40,8 +61,9 @@
     font-size: 28px;
     background-color: #d3d9fd;
     width: 172px;
-    height: 36px;
+    height: 60px;
     border: none;
     border-radius: 20px;
+    padding: 10px 16px;
   }
 }
