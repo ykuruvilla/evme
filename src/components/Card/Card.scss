@@ -1,0 +1,47 @@
+.car {
+  &__card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    font-weight: 400;
+    &:focus {
+      background-color: white;
+      color: black;
+    }
+    // padding: 0 28px 0 28px;
+
+    &--middle {
+      margin: 0 56px;
+    }
+  }
+
+  &__image-container {
+    object-fit: contain;
+  }
+
+  &__image {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  &__button-container {
+    align-self: center;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    font-size: 28px;
+    background-color: #d3d9fd;
+    width: 172px;
+    height: 36px;
+    border: none;
+    border-radius: 20px;
+  }
+}
