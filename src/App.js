@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
-
+import "./styles/partials/_resets.scss";
 import "./App.scss";
 import Home from "./components/Home/Home";
 import Form from "./components/Form/Form";

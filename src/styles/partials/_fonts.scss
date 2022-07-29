@@ -1,0 +1,71 @@
+@import "./breakpoints.scss";
+
+@font-face {
+  font-family: poppins;
+  src: url("../../assets/fonts/poppins/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: poppinsSemibold;
+  src: url("../../assets/fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: poppinsBold;
+  src: url("../../assets/fonts/poppins/Poppins-Bold.ttf");
+}
+
+@mixin header {
+  font-family: poppinsSemibold;
+  font-size: 30px;
+  line-height: 45px;
+
+  @include desktop {
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
+
+@mixin subheader {
+  font-family: poppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+
+  @include desktop {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@mixin body {
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+
+  @include desktop {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+@mixin body-bold {
+  font-family: poppinsSemibold;
+  font-size: 20px;
+  line-height: 30px;
+
+  @include desktop {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+@mixin button {
+  font-family: poppins;
+  font-size: 20px;
+  line-height: 60px;
+
+  @include desktop {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
