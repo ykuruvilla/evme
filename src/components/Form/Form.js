@@ -57,7 +57,7 @@ const Form = () => {
               type="number"
               name="mileage"
               id="mileage"
-              placeholder="Mileage"
+              placeholder="Avg Yearly Mileage"
               className="form__input-field"
             />
           </form>

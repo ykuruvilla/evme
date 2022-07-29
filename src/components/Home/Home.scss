@@ -138,12 +138,14 @@
 
   &__button {
     height: 96px;
+    font-size: 20px;
     width: 180px;
     border-radius: 20px;
     background-color: $evee-blue;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
   }
 
   &__socials {

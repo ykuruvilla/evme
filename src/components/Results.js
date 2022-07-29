@@ -40,7 +40,11 @@ const Results = () => {
         <p className="discount-text">
           * Receive an exclusive discount of 3% upon purchase
         </p>
-        <button className="discount-button">{`Purchase >`}</button>
+        <a
+          target="_blank"
+          href="https://www.volkswagen.co.uk/en/electric-and-hybrid/electric-cars/id3.html"
+          className="discount-button"
+        >{`Purchase >`}</a>
       </div>
     </div>
   );
