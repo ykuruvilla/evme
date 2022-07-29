@@ -8,14 +8,14 @@ import Results from "./components/Results";
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/questionnaire" component={Form} />
         <Route exact path="/results" component={Results} />
       </Switch>
-    </>
+    </div>
   );
 };
 
