@@ -1,18 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import licence from "../../assets/images/licence.png";
+import "./Form.scss";
 
 const Form = () => {
   return (
     <div className="hero">
       <div className="form__container">
         <div className="form__left">
-          <img src="" alt="Licence plate" />
+          <img src={licence} alt="Licence plate" />
           <p className="form__text">Car registration number</p>
-          <input type="text" placeholder="Type it here..." />
+          <input
+            className="form__input-field"
+            type="text"
+            placeholder="Type it here..."
+          />
+        </div>
+        <div className="form__middle">
+          <p className="form__middle-text">OR</p>
         </div>
 
         <div className="form__right">
           <p className="form__text">Car details</p>
-          <form action="submit" className="form__right">
+          <form action="submit" className="form__inputs">
             <select name="make" id="make">
               <option value="" selected disabled hidden>
                 Make
@@ -48,10 +58,15 @@ const Form = () => {
               name="mileage"
               id="mileage"
               placeholder="Mileage"
+              className="form__input-field"
             />
           </form>
         </div>
-        <div className="button__container"></div>
+      </div>
+      <div className="button__container">
+        <Link to="/compare">
+          <button className="form__button">I'm ready</button>
+        </Link>
       </div>
     </div>
   );

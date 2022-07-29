@@ -3,6 +3,9 @@ import Card from "../Card/Card";
 import car1 from "../../assets/images/car1.png";
 import car2 from "../../assets/images/car2.png";
 import car3 from "../../assets/images/car3.png";
+import fuel2 from "../../assets/images/FUEL-COST-VOLKSWAGEN.png";
+import fuel1 from "../../assets/images/FUEL-COST-VAUXHALL.png";
+import fuel3 from "../../assets/images/FUEL-COST-TESLA.png";
 import "./Compare.scss";
 import breadcrumbs from "../../assets/images/Breadcrumb _ 02.png";
 
@@ -17,7 +20,7 @@ const Compare = () => {
           make="Vauxhall"
           model="Mokka E"
           years="2"
-          fuelImg=""
+          fuelImg={fuel1}
         />
         <Card
           price="£40k"
@@ -26,7 +29,7 @@ const Compare = () => {
           make="Volkswagen"
           model="ID.3Pro"
           years="2.1"
-          fuelImg=""
+          fuelImg={fuel2}
         />
         <Card
           price="£60k"
@@ -34,7 +37,7 @@ const Compare = () => {
           make="Tesla"
           model="Model 3"
           years="3"
-          fuelImg=""
+          fuelImg={fuel3}
         />
       </div>
     </div>

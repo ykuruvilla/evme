@@ -1,0 +1,78 @@
+.hero {
+  height: 90vh;
+  background-image: url("../../assets/images/car-details-page-background.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  &__container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: relative;
+    width: 50%;
+    // top: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  &__left {
+  }
+
+  &__middle {
+    margin: 0 40px;
+  }
+
+  &__right {
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__input-field {
+    margin: 16px 0;
+    background-color: #ffffff;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+
+    &::placeholder {
+      color: black;
+    }
+  }
+
+  &__button {
+    width: 260px;
+    height: 80px;
+    background-color: #2172fc;
+    border-radius: 20px;
+    color: white;
+    font-size: 26px;
+    border: 0;
+  }
+
+  &__text {
+    font-size: 24px;
+  }
+}
+
+select {
+  margin: 16px 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  color: #0b0c37;
+}
+.button__container {
+  margin: 16px 0 auto;
+}
