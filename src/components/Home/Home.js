@@ -70,7 +70,7 @@ const Home = () => {
 
         <Link to="/form">
           <button className="home__button">
-            <h3 className>Let's go</h3>
+            <h3 className="home__button-text">Let's go</h3>
           </button>
         </Link>
         <img className="home__socials" src={socials}></img>
