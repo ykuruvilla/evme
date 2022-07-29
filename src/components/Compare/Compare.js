@@ -21,6 +21,7 @@ const Compare = () => {
           model="Mokka E"
           years="2"
           fuelImg={fuel1}
+          hasButton={true}
         />
         <Card
           price="£40k"
@@ -30,6 +31,7 @@ const Compare = () => {
           model="ID.3Pro"
           years="2.1"
           fuelImg={fuel2}
+          hasButton={true}
         />
         <Card
           price="£60k"
@@ -38,6 +40,7 @@ const Compare = () => {
           model="Model 3"
           years="3"
           fuelImg={fuel3}
+          hasButton={true}
         />
       </div>
     </div>

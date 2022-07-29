@@ -68,7 +68,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Link to="/questionnaire">
+        <Link to="/form">
           <button className="home__button">
             <h3 className>Let's go</h3>
           </button>

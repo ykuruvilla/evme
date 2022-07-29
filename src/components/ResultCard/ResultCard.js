@@ -13,9 +13,6 @@ function Card(props) {
           <img src={props.img} alt="Car image" className="car__image" />
         </div>
         <div className="car__info">
-          <div className="car__price">
-            <h3 className="car__price-text">{props.price}</h3>
-          </div>
           <p className="car__title">{`${props.make}: ${props.model}`}</p>
           <p className="car__offset">
             {`Ofsetting cost:`} <span>{`${props.years} years`}</span>
@@ -25,13 +22,11 @@ function Card(props) {
             <img src={props.fuelImg} alt="" />
           </div>
         </div>
-        {props.hasButton && (
-          <div className="car__button-container">
-            <Link to="/results">
-              <button className="car__button">Select</button>
-            </Link>
-          </div>
-        )}
+        <div className="car__button-container">
+          <Link to="/results">
+            <button className="car__button">Select</button>
+          </Link>
+        </div>
       </article>
     </>
   );
