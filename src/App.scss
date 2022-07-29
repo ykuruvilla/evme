@@ -1,6 +1,11 @@
 @use "./styles/partials/colours" as *;
 @use "./styles/partials/resets" as *;
 
+* {
+  box-sizing: border-box;
+}
+
+
 .App {
   background-color: $evee-dark;
 }

@@ -19,6 +19,7 @@
   font-family: poppinsSemibold;
   font-size: 30px;
   line-height: 45px;
+  color: white;
 
   @include desktop {
     font-size: 60px;
@@ -30,6 +31,7 @@
   font-family: poppinsBold;
   font-size: 20px;
   line-height: 30px;
+  color: white;
 
   @include desktop {
     font-size: 14px;
@@ -41,6 +43,7 @@
   font-family: poppins;
   font-size: 16px;
   line-height: 24px;
+  color: white;
 
   @include desktop {
     font-size: 18px;
@@ -52,6 +55,7 @@
   font-family: poppinsSemibold;
   font-size: 20px;
   line-height: 30px;
+  color: white;
 
   @include desktop {
     font-size: 28px;
@@ -63,6 +67,7 @@
   font-family: poppins;
   font-size: 20px;
   line-height: 60px;
+  color: white;
 
   @include desktop {
     font-size: 40px;
