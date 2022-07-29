@@ -1,0 +1,19 @@
+.compare {
+  &__cards {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 50px;
+    // width: 102px;
+    // margin: 0 auto;
+  }
+
+  &__cards-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.breadcrumbs {
+  margin: 30px 400px;
+}
