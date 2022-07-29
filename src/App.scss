@@ -1,5 +1,6 @@
-@import "./styles/partials/colours.scss";
+@use "./styles/colours" as *;
+@use "./styles/resets" as *;
 
 .App {
-  background-color: $evee-darkblue;
+  background-color: $evee-dark;
 }
