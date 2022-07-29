@@ -1,5 +1,37 @@
 @use "../../styles/partials/font" as *;
 
-h1 {
-  font-family: "poppins";
+.header {
+  display: flex;
+  height: 112px;
+  align-items: flex-end;
+  padding-bottom: 17px;
+
+  &__logo-container {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    padding-left: 70px;
+  }
+
+  &__logo {
+    object-fit: contain;
+  }
+
+  &__navigation-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 17px;
+    padding-right: 80px;
+  }
+
+  &__navigation-list-item {
+    font-size: 28px;
+    line-height: 42px;
+    font-family: "poppins";
+    font-weight: 400;
+
+    &--center {
+      padding: 0 52px;
+    }
+  }
 }
